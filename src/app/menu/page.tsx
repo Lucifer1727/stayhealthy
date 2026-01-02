@@ -10,27 +10,30 @@ export default function MenuPage() {
       items: [
         {
           name: "Protein Power Bowl",
-          description: "Greek yogurt, granola, fresh berries, and honey drizzle",
-          price: "$12.99",
-          image: "/Examples/1.png",
-          calories: "420 cal",
+          description:
+            "Mixed greens, grilled steak, roasted cauliflower, avocado, peppers",
+          price: "$16.99",
+          image: "/menu-bowl.jpg",
+          calories: "520 cal",
           tags: ["High Protein", "Gluten-Free"],
         },
         {
           name: "Avocado Toast Supreme",
-          description: "Whole grain bread, smashed avocado, poached eggs, cherry tomatoes",
+          description:
+            "Whole grain bread, smashed avocado, perfectly fried egg, herbs",
           price: "$14.99",
-          image: "/Examples/2.png",
+          image: "/menu-toast.jpg",
           calories: "380 cal",
           tags: ["Vegetarian", "Heart Healthy"],
         },
         {
           name: "Green Smoothie Bowl",
-          description: "Spinach, banana, mango, chia seeds, coconut flakes",
-          price: "$11.99",
-          image: "/Examples/3.png",
-          calories: "290 cal",
-          tags: ["Vegan", "Low Sugar"],
+          description:
+            "Spinach smoothie, kiwi, raspberries, banana, granola, chia seeds",
+          price: "$12.99",
+          image: "/menu-smoothie.jpg",
+          calories: "320 cal",
+          tags: ["Vegan", "Antioxidant Rich"],
         },
       ],
     },
@@ -40,7 +43,8 @@ export default function MenuPage() {
       items: [
         {
           name: "Mediterranean Quinoa Bowl",
-          description: "Quinoa, grilled chicken, cucumber, feta, olives, hummus",
+          description:
+            "Quinoa, grilled chicken, cucumber, feta, olives, hummus",
           price: "$16.99",
           image: "/Examples/4.png",
           calories: "540 cal",
@@ -56,7 +60,8 @@ export default function MenuPage() {
         },
         {
           name: "Grilled Salmon Plate",
-          description: "Wild salmon, roasted vegetables, brown rice, lemon butter",
+          description:
+            "Wild salmon, roasted vegetables, brown rice, lemon butter",
           price: "$19.99",
           image: "/Examples/1.png",
           calories: "620 cal",
@@ -70,7 +75,8 @@ export default function MenuPage() {
       items: [
         {
           name: "Herb Crusted Chicken",
-          description: "Free-range chicken breast, sweet potato mash, green beans",
+          description:
+            "Free-range chicken breast, sweet potato mash, green beans",
           price: "$18.99",
           image: "/Examples/2.png",
           calories: "580 cal",
@@ -149,9 +155,7 @@ export default function MenuPage() {
         >
           <div className="absolute inset-0 bg-white/85 backdrop-blur-[2px]"></div>
           <div className="relative max-w-7xl mx-auto px-4 py-16 text-center">
-            <h1 className="text-5xl font-bold text-zinc-900 mb-4">
-              Our Menu
-            </h1>
+            <h1 className="text-5xl font-bold text-zinc-900 mb-4">Our Menu</h1>
             <p className="text-lg text-zinc-600 max-w-2xl mx-auto mb-8">
               Explore our carefully crafted meals designed by nutritionists to
               help you achieve your health goals while enjoying delicious food.
