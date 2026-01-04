@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/ui/navbar";
 import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
+import { ScrollRotateImage } from "@/components/ui/scroll-rotate-image";
 
 export default function Home() {
   //open.spotify.com/track/4tHJc5agHg9LVsijAwtooy
@@ -18,8 +19,12 @@ export default function Home() {
           {/* <div className="absolute inset-0 bg-white/80 backdrop-blur-[1px]"></div> */}
 
           <div className="relative max-w-7xl mx-auto px-4 py-20 z-10 w-full">
-            <div className="flex justify-end">
-              <div className="max-w-xl text-right">
+            <div className="flex justify-between items-center gap-12">
+              {/* Left side - Rotating Image */}
+              <div className="flex-1 flex justify-center items-center"></div>
+
+              {/* Right side - Text content */}
+              <div className="flex-1 max-w-xl text-right">
                 <h1 className="text-6xl font-bold text-zinc-900 mb-4">
                   Plan Well
                   <br />
@@ -62,8 +67,14 @@ export default function Home() {
         <section id="why-choose-us" className="bg-white py-20">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-5xl font-bold text-zinc-900 mb-6">
+              <div className="flex items-center gap-8">
+                <ScrollRotateImage
+                  src="/AvocadoToast.png"
+                  alt="Healthy Food"
+                  className="w-64 h-64 md:w-80 md:h-80 shrink-0"
+                  circular
+                />
+                <h2 className="text-5xl font-bold text-zinc-900">
                   About
                   <br />
                   StayHealthy

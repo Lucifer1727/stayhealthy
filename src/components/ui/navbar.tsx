@@ -45,8 +45,9 @@ export function Navbar({ className }: NavbarProps) {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="/StayHealthy(1).png"
+                src="/stayHealthyLogo.png"
                 alt="StayHealthy Logo"
+                style={{ marginTop: 35 }}
                 width={300}
                 height={60}
                 className="object-contain"

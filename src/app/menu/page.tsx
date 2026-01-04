@@ -12,7 +12,7 @@ export default function MenuPage() {
           name: "Protein Power Bowl",
           description:
             "Mixed greens, grilled steak, roasted cauliflower, avocado, peppers",
-          price: "$16.99",
+          price: "₹16.99",
           image: "/menu-bowl.jpg",
           calories: "520 cal",
           tags: ["High Protein", "Gluten-Free"],
@@ -21,7 +21,7 @@ export default function MenuPage() {
           name: "Avocado Toast Supreme",
           description:
             "Whole grain bread, smashed avocado, perfectly fried egg, herbs",
-          price: "$14.99",
+          price: "₹14.99",
           image: "/menu-toast.jpg",
           calories: "380 cal",
           tags: ["Vegetarian", "Heart Healthy"],
@@ -30,7 +30,7 @@ export default function MenuPage() {
           name: "Green Smoothie Bowl",
           description:
             "Spinach smoothie, kiwi, raspberries, banana, granola, chia seeds",
-          price: "$12.99",
+          price: "₹12.99",
           image: "/menu-smoothie.jpg",
           calories: "320 cal",
           tags: ["Vegan", "Antioxidant Rich"],
